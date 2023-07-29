@@ -1,9 +1,11 @@
 import "../styles/Header.css";
-
+import Navigation from "./Navigation.jsx";
 function Header() {
   return (
     <div className="Header">
-      <h1>Header</h1>
+      <div className="header-content">
+        <Navigation />
+      </div>
     </div>
   );
 }

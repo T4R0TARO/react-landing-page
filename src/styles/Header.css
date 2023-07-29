@@ -5,6 +5,9 @@
   background-image: url(../images/bg.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  border: 1px solid cyan;
-  background-position-y: 100%;
+  background-position-y: 120%;
+}
+
+.header-content {
+  padding: 0 10rem;
 }
