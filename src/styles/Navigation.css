@@ -1,1 +1,5 @@
 /* NAVIGATION STLYES */
+.Navigation {
+  display: flex;
+  justify-content: space-between;
+}

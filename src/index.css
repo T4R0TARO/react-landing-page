@@ -25,3 +25,11 @@ body {
   color: var(--lavender-secondary);
   background-color: var(--neutral-light);
 }
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}

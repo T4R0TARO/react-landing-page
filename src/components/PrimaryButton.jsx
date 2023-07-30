@@ -1,7 +1,7 @@
 import "../styles/PrimaryButton.css";
 
-function PrimaryButton() {
-  return <div className="">Sign Up</div>;
+function PrimaryButton({ name }) {
+  return <button className="">{name}</button>;
 }
 
 export default PrimaryButton;

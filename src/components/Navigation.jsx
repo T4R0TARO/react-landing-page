@@ -1,23 +1,24 @@
 import "../styles/Navigation.css";
 import PrimaryButton from "./PrimaryButton.jsx";
-
+import logo from "../images/logo.svg";
 function Navigation() {
   return (
-    <nav>
+    <nav className="Navigation">
       <div className="logo">
-        <ul>
-          <li>
-            <a href="Home"></a>
-          </li>
-          <li>
-            <a href="Features"></a>
-          </li>
-          <li>
-            <a href="Pricing"></a>
-          </li>
-        </ul>
-        <PrimaryButton name={"Sign Up"} />
+        <img src={logo} alt="" />
       </div>
+      <ul>
+        <li>
+          <a href="Home">Home</a>
+        </li>
+        <li>
+          <a href="Features">Feature</a>
+        </li>
+        <li>
+          <a href="Pricing">Pricing</a>
+        </li>
+      </ul>
+      <PrimaryButton name={"Sign Up"} />
     </nav>
   );
 }
