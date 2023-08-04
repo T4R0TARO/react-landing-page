@@ -1,1 +1,52 @@
 /* HEADER CONTENT STLYES */
+.HeaderContent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-top: 3rem;
+}
+
+.left-content {
+  display: flex;
+  align-items: center;
+  padding-right: 3rem;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+.white {
+  padding: 1.4rem 0;
+  line-height: 1.8rem;
+}
+
+.right-content {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.phone {
+  width: 80%;
+}
+
+.ring1 {
+  position: absolute;
+  bottom: 10%;
+  right: 0;
+  left: auto;
+}
+
+.message1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: auto;
+}
+
+.message2 {
+  position: absolute;
+  bottom: 15%;
+  left: 0;
+}
