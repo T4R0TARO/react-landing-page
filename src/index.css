@@ -37,3 +37,13 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+.secondary-heading {
+  font-size: 3rem;
+  color: var(--purple-primary);
+}
+
+p {
+  color: var(--lavender-secondary);
+  line-height: 1.9rem;
+}

@@ -19,6 +19,7 @@ h1 {
 .white {
   padding: 1.4rem 0;
   line-height: 1.8rem;
+  color: white;
 }
 
 .right-content {
