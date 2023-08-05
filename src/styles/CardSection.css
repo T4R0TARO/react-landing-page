@@ -1,0 +1,16 @@
+/* CARD SECTION STYLES */
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.card-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-left p {
+  padding: 1rem 0;
+}

@@ -1,13 +1,9 @@
 import "../styles/Layout.css";
-
+import CardSection from "../components/CardSection.jsx";
 function Layout() {
   return (
     <div className="Layout">
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam non
-        nisi magnam tempore hic ea rerum esse eos dicta voluptatum aspernatur,
-        ullam a distinctio dolores facilis numquam, reprehenderit veniam modi.
-      </p>
+      <CardSection />
     </div>
   );
 }
