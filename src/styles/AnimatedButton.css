@@ -1,0 +1,59 @@
+/* ANIMATED BUTTON STYLES */
+
+.animated-button {
+  background-color: var(--dark-primary);
+  padding: 1rem 2rem;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+  width: 200px;
+  transition: all 0.4s ease-in-out;
+}
+
+.arrow {
+  padding-left: 0.9rem;
+}
+
+.animated-button:hover {
+  width: 220px;
+}
+
+.animated-button:hover {
+  color: var(--accent-pink);
+}
+
+.animated-button:hover .blob1 {
+  transition: all 0.4s ease-in-out;
+  transform: translateX(-100px);
+}
+
+.animated-button:hover .blob2 {
+  transition: all 0.4s ease-in-out;
+  transform: translateX(100px);
+}
+
+.blob1,
+.blob2 {
+  position: absolute;
+  pointer-events: none;
+  transition: all 0.4s ease-in-out;
+}
+
+.blob1 {
+  top: 0;
+  right: 0;
+}
+
+.blob2 {
+  bottom: 0;
+  left: 0;
+}
