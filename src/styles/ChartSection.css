@@ -1,0 +1,30 @@
+/* CHART SECTION STYLES */
+.chart-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 8rem;
+}
+
+.stats-money {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1.3rem;
+}
+
+.stats img {
+  box-shadow: 0px 25px 50px rgba(22, 25, 79, 0.05);
+  border-radius: 50px;
+  width: 100%;
+}
+
+.chart-left {
+  width: 80%;
+}
+
+.chart-right {
+  padding-left: 2rem;
+}
+
+.chart-right p {
+  padding: 1.3rem 0;
+}
