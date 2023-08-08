@@ -1,0 +1,53 @@
+/* MESSAGE SECTION */
+.message-section {
+  padding-top: 8rem;
+}
+
+.message-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.left-items {
+  position: relative;
+  padding-right: 2rem;
+}
+
+.left-items p {
+  padding: 1rem 0;
+}
+
+.images-container {
+  display: flex;
+  align-items: center;
+}
+
+.image-1,
+.image-2,
+.image-3,
+.image-4,
+.image-5 {
+  margin-left: -22px;
+}
+
+.left-items .bgCircle {
+  position: absolute;
+  top: -7%;
+  left: -10%;
+  z-index: -1;
+}
+
+.right-items {
+  position: relative;
+}
+
+.right-items img {
+  padding-left: 2rem;
+}
+
+.right-items .bgCircle {
+  position: absolute;
+  bottom: -7%;
+  right: 0;
+  z-index: -1;
+}
