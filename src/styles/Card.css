@@ -54,6 +54,21 @@
   padding: 0 0.3rem;
 }
 
+.list-container p {
+  text-align: start;
+  margin-bottom: 1rem;
+}
+
+.text-check {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.text-check img {
+  margin-right: 0.5rem;
+}
+
 .text-check:nth-child(6) {
   color: #b7b7b7;
 }
