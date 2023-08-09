@@ -1,0 +1,12 @@
+/* PAYMENT SECTION STYLES */
+.payment-section {
+  margin-top: 8rem;
+  text-align: center;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 3rem;
+  padding-top: 7.4rem;
+}
