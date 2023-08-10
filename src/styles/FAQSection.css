@@ -1,0 +1,27 @@
+/* FAQ SECTION STLYES */
+
+.faq-section {
+  margin-top: 8rem;
+}
+
+.faq-section__para {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+}
+
+.question-container {
+  padding-top: 4rem;
+}
+
+.lines {
+  position: absolute;
+  left: 0;
+  top: 300%;
+  width: 100%;
+  z-index: -1;
+}
+
+.lines img {
+  width: 100%;
+}

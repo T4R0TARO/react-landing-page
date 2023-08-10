@@ -3,6 +3,7 @@ import CardSection from "../components/CardSection.jsx";
 import ChartSection from "./ChartSection";
 import MessageSection from "./MessageSection";
 import PaymentSection from "./PaymentSection";
+import FAQSection from "./FAQSection";
 
 function Layout() {
   return (
@@ -11,6 +12,7 @@ function Layout() {
       <ChartSection />
       <MessageSection />
       <PaymentSection />
+      <FAQSection />
     </div>
   );
 }
