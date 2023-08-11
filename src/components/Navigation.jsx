@@ -9,13 +9,13 @@ function Navigation() {
       </div>
       <ul>
         <li>
-          <a href="Home">Home</a>
+          <a href="#Home">Home</a>
         </li>
         <li>
-          <a href="Features">Feature</a>
+          <a href="#Features">Feature</a>
         </li>
         <li>
-          <a href="Pricing">Pricing</a>
+          <a href="#Pricing">Pricing</a>
         </li>
       </ul>
       <PrimaryButton name={"Sign Up"} />

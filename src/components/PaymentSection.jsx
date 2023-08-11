@@ -8,7 +8,7 @@ import checkDisabled from "../images/check-disabled.svg";
 
 function PaymentSection() {
   return (
-    <div className="payment-section">
+    <div id="Pricing" className="payment-section">
       <h3 className="small-heading">
         An exceptional service, <span>at the right price</span>
       </h3>
