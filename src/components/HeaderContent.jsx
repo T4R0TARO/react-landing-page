@@ -7,7 +7,7 @@ import message2 from "../images/message_blue.svg";
 
 function HeaderContent() {
   return (
-    <div className="HeaderContent">
+    <div id="Home" className="HeaderContent">
       <div className="left-content">
         <div className="left-text-containter">
           <h1>Smart banking for freelance</h1>

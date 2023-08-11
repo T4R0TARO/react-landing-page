@@ -1,0 +1,30 @@
+/* FOOTER STYLES */
+
+.footer {
+  background-color: #dce2f0;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-container img {
+  width: 90px;
+}
+
+.bottom-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-nav li {
+  padding: 2rem 0;
+  color: #16194f;
+}

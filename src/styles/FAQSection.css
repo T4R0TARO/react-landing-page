@@ -17,7 +17,7 @@
 .lines {
   position: absolute;
   left: 0;
-  top: 300%;
+  top: 210%;
   width: 100%;
   z-index: -1;
 }

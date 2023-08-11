@@ -7,7 +7,7 @@ import AnimatedButton from "../components/AnimatedButton.jsx";
 
 function ChartSection() {
   return (
-    <div className="chart-section">
+    <div id="Features" className="chart-section">
       <div className="chart-left">
         <div className="stats">
           <div className="stats-money">
