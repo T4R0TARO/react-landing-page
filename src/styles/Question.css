@@ -10,11 +10,12 @@
 
 .question p {
   transition: all 0.4s ease-in-out;
+  padding: 1rem;
+  overflow: hidden;
 }
 
 .question h4 {
   color: #16194f;
-  transition: all 0.4s ease-in-out;
   font-size: 1.3rem;
 }
 
@@ -22,7 +23,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  transition: all 0.4s ease-in-out;
 }
 
 .toggle-title button {
