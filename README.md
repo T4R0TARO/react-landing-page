@@ -1,8 +1,22 @@
-# React + Vite
+# About
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a mock landing page made with React + Vite.
 
-Currently, two official plugins are available:
+## Built with
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- HTML
+- CSS
+- JavaScript
+- React
+- Vite
+
+## Links
+
+- Solution URL: [Git Repo](https://github.com/T4R0TARO/react-landing-page)
+- Live Site URL: [Git Pages](https://t4r0taro.github.io/react-landing-page/)
+
+## Author
+
+- Email - jmanansaladev@gmail.com
+- Website - [Joshua Manansala](https://github.com/T4R0TARO)
+- Twitter - [@taro_code](https://twitter.com/taro_code)
