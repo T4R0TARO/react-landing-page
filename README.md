@@ -9,6 +9,7 @@ This is a mock landing page made with React + Vite.
 - JavaScript
 - React
 - Vite
+- Framer Motion
 
 ## Links
 

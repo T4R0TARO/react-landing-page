@@ -3,12 +3,14 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   padding-top: 3rem;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
 }
 
 .left-content {
   display: flex;
   align-items: center;
-  padding-right: 3rem;
 }
 
 h1 {
@@ -20,6 +22,7 @@ h1 {
   padding: 1.4rem 0;
   line-height: 1.8rem;
   color: white;
+  max-width: 700px;
 }
 
 .right-content {
@@ -50,4 +53,49 @@ h1 {
   position: absolute;
   bottom: 15%;
   left: 0;
+}
+
+/* MOBILE STLYES */
+
+@media (max-width: 1100px) {
+  .HeaderContent {
+    grid-template-columns: 1fr;
+  }
+
+  .left-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+
+  .left-content {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 821px) {
+  .HeaderContent h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 611px) {
+  .HeaderContent h1 {
+    font-size: 2rem;
+  }
+  .white {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .ring1,
+  .message1,
+  .message2 {
+    height: 6rem;
+    width: auto;
+  }
 }

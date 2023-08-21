@@ -9,7 +9,7 @@ function HeaderContent() {
   return (
     <div id="Home" className="HeaderContent">
       <div className="left-content">
-        <div className="left-text-containter">
+        <div className="left-text-container">
           <h1>Smart banking for freelance</h1>
           <p className="white">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti

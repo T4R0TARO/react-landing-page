@@ -11,3 +11,21 @@
 .header-content {
   padding: 0 10rem;
 }
+
+@media (max-width: 1100px) {
+  .Header {
+    margin-bottom: 8rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .header-content {
+    padding: 0 4rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .header-content {
+    padding: 0 2rem;
+  }
+}
