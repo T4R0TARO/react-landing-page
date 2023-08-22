@@ -3,3 +3,15 @@
 .Layout {
   padding: 8rem;
 }
+
+@media (max-width: 1100px) {
+  .Layout {
+    margin-top: 20rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .Layout {
+    padding: 2rem;
+  }
+}

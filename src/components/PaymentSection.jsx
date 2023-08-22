@@ -15,7 +15,7 @@ function PaymentSection() {
       <p className="payment-para">
         Start with our free plan and switch to premium as you grow.{" "}
       </p>
-      <div className="card-container">
+      <div className="payment-card-container">
         <Card
           account={"Free"}
           amount={"$0"}
