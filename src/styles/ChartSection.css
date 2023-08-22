@@ -3,6 +3,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   margin-top: 8rem;
+  gap: 2rem;
 }
 
 .stats-money {
@@ -21,10 +22,55 @@
   width: 80%;
 }
 
-.chart-right {
-  padding-left: 2rem;
-}
-
 .chart-right p {
   padding: 1.3rem 0;
+}
+
+@media (max-width: 1290px) {
+  .chart-section {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+  }
+  .chart-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0 auto; */
+    width: 100%;
+  }
+
+  .chart {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
+@media (max-width: 775px) {
+  .chart-section {
+    text-align: center;
+  }
+
+  .chart-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .chart-right .secondary-heading {
+    font-size: 2rem;
+  }
+
+  .chart-right p {
+    font-size: 1rem;
+  }
+
+  .stats-money {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
 }

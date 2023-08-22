@@ -14,7 +14,7 @@ function ChartSection() {
             <ChartStats name={"Balance"} amount={"$250"} />
             <ChartStats name={"Last Transaction"} amount={"$1000"} />
           </div>
-          <img src={chart} alt="chart-image" />
+          <img src={chart} alt="chart-image" className="chart" />
         </div>
       </div>
       <div className="chart-right">

@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import "../styles/ChartStats.css";
 function ChartStats({ name, amount }) {
   return (
