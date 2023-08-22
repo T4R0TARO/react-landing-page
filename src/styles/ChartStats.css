@@ -16,3 +16,14 @@ h4 {
 p {
   color: black;
 }
+
+@media (max-width: 545px) {
+  .chart-stats {
+    padding: 1rem;
+    height: 6rem;
+  }
+
+  .chart-stats h4 {
+    font-size: 2rem;
+  }
+}
