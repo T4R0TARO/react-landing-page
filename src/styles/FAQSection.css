@@ -25,3 +25,12 @@
 .lines img {
   width: 100%;
 }
+
+@media (max-width: 770px) {
+  .faq-section .small-heading {
+    font-size: 2rem;
+  }
+  .faq-section .faq-section__para {
+    font-size: 1rem;
+  }
+}
