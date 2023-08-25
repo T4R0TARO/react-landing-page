@@ -78,3 +78,13 @@
 .text-check:nth-child(8) {
   color: #b7b7b7;
 }
+
+@media (max-width: 770px) {
+  .card .para {
+    font-size: 1rem;
+  }
+
+  .text-check {
+    font-size: 1rem;
+  }
+}
