@@ -21,7 +21,16 @@ function Question({ title, description }) {
             {toggle ? <img src={plus} alt="" /> : <img src={minus} alt="" />}
           </button>
         </motion.div>
-        {toggle && <motion.p>{description}</motion.p>}
+        {toggle && (
+          <motion.p
+            initial={{ height: 0 }}
+            animate={{ height: "auto" }}
+            exit={{ height: 0 }}
+            transition={{ type: "spring", duration: 0.4, bounce: 0 }}
+          >
+            {description}
+          </motion.p>
+        )}
       </motion.div>
     </AnimatePresence>
   );
