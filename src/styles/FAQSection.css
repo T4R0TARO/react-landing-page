@@ -32,5 +32,6 @@
   }
   .faq-section .faq-section__para {
     font-size: 1rem;
+    width: 100%;
   }
 }
